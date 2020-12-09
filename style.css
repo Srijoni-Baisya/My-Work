@@ -1,0 +1,36 @@
+body{
+    text-align: center;
+}
+#app{
+    background: linear-gradient(to bottom right,rgba(182,135,247,89),rgba(244,134,138,84));
+    padding-bottom: 30px;
+   }
+#game{
+    background: linear-gradient(to bottom right,rgba(182,135,247,89),rgba(244,134,138,84));
+    padding-bottom: 30px; 
+}
+#chatbot{
+   background: linear-gradient(to bottom right,rgba(182,135,247,89),rgba(244,134,138,84));
+    padding-bottom: 30px;  
+}
+h1{
+    font-size: 50px;
+    padding-top: 25px;
+    font-family: font-family: 'Castoro', serif;
+    color:mediumblue;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    margin: 8px auto;
+    width: 70px;
+}
+img{
+    height: 350px;
+    width: 350px;
+    transition: transform .2s;
+    padding-right: 25px;
+}
+img:hover{
+    transform:scale(0.9); 
+}
