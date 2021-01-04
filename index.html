@@ -4,10 +4,15 @@
     <title>My Work</title>
     <link rel="stylesheet" href="style.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet"> 
+<link href="https://fonts.googleapis.com/css2?family=Castoro&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
+    <div class="container">
+   
    <section id="app">
      <h1>Apps</h1> 
      <div class="line"></div>
@@ -16,17 +21,48 @@
        <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/4_m1cOPr3JTJ6u6RNyxbaQbsJvkri0Vnl16Qa31K-nM/embed"></iframe>
     </section>
     
-    <section id="game">
         <h1>Games</h1>
+        <h2>Click on the images to explore</h2>
         <div class="line"></div>
         <br><br>
+        
+        <div id="myCarousel" class="carousel slide">      
+       
+            <div class="carousel-inner">
+            
+            <div class="item active">
+            <center>
         <a href="https://studio.code.org/projects/spritelab/KCZNUFCHUzSpvvt8aZS4Yy2V7iDDDU-Yf28NgY87r94" target="_blank">
-            <img src="Collect_The_Gold.png">
+            <img src="Collect_The_Gold.png" class="img-responsive">
         </a>
+                <div class="carousel-content">
+                    <p>Collect The Gold</p>
+                </div>
+             </center>
+           </div> 
+            
+            <div class="item">
+            <center>
         <a href="https://studio.code.org/projects/spritelab/-uYvj9JrmV4J1c_vTeyqWNg_8WXcTHd6rbc3atGA3GY" target="_blank">
-            <img src="Winnie_The_Bear.png">
+            <img src="Winnie_The_Bear.png" class="img-responsive">
         </a>
-    </section>
+                <div class="carousel-content">
+                    <p>Winnie The Bear</p>
+                </div>
+             </center>
+           </div> 
+            
+        </div>
+        
+        <a class="left carousel-control" href="#myCarousel" data-slide="prev"> 
+            <span class="glyphicon glyphicon-chevron-left"></span> 
+        </a>
+        
+        <a class="right carousel-control" href="#myCarousel" data-slide="next"> 
+            <span class="glyphicon glyphicon-chevron-right"></span>
+        </a>
+        </div>
+    
     
     <section id="chatbot">
         <h1>ChatBot</h1>
@@ -39,5 +75,13 @@
         >
         </iframe>
     </section>
+    
+    <section id="drawings">
+        <h1>Drawings</h1>
+        <div class="line"></div>
+        
+    </section>
+        
+         </div>
 </body>
 </html>
